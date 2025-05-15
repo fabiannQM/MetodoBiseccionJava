@@ -1,18 +1,17 @@
-## Getting Started
+EVIDENCIA 3 - MÉTODOS NUMÉRICOS
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Método de Bisección en Java
+Este programa implementa el método numérico de bisección en Java para encontrar raíces aproximadas de funciones continuas. Utiliza la librería exp4j para evaluar expresiones matemáticas introducidas por el usuario.
 
-## Folder Structure
+Introduce una función matemática usando x como variable.
+Ejemplo válido:
 
-The workspace contains two folders by default, where:
+x^2 + x (puedes escribir también x*x + x si tienes problemas con ^)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Ingresa el intervalo [a, b] donde cambiará el signo de la función.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Introduce una tolerancia (como 0.0001) que indica cuán precisa debe ser la raíz.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Ingresa un número máximo de iteraciones.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+El programa te mostrará una tabla con los valores de a, b, m y f(m) en cada iteración.
